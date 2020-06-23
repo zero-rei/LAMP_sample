@@ -14,7 +14,7 @@ try {
     $stmt=$dbh->prepare($sql);
     $params=array(':id' =>$id, ':name' =>$name, ':age' =>$age)
      
-    $result=$dbh->query($params);
+    $stmt->execute($params);
 
     header('Location: index.php?fg=1');
 
