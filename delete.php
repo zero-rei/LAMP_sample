@@ -5,6 +5,7 @@ $password = 'Gamezero0';
 try {
     $dbh = new PDO($dsn, $user, $password);
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
     $id = $_GET['id'];
 
 
@@ -14,10 +15,10 @@ try {
     $stmt->execute($params);
 
     
-    header('Location: index.php?de=1');
+    header('Location: index.php?fg=1');
     
 } catch (PDOException $e) {
-    header('Location: index.php?de=2?err='. $e->getMessage());
+    header('Location: index.php?fg=2?err='. $e->getMessage());
     exit();
 }
 ?>
