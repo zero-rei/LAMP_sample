@@ -130,7 +130,7 @@ try {
                             <td>
                                 <form action="./delete.php" method="$_GET">
                                     <input type="text" class="d-none" name="id" value="<?php echo "$value[id]"?>"></input>
-                                    <button type="submit" class="btn danger"> delete</button>
+                                    <button type="submit" class="btn btn-praimary"> delete</button>
 
                                 </form>
                             </td>
