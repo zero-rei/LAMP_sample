@@ -12,10 +12,10 @@ try {
     $stmt = $dbh->prepare($sql);
     $params = array(':id' => $id, ':name' => $name, ':age' => $age,);
     $stmt->execute($params);
-    header('Location: index.php?fg = 1');
+    header('Location: index.php?fg=1');
 } catch (PDOException $e) {
     //echo "接続失敗: " . $e->getMessage() . "\n";
-    header('Location: index.php?fg = 2? err=$e -> getMessage()');
+    header('Location: index.php?fg=2? err=$e -> getMessage()');
     exit();
 }
 ?>
