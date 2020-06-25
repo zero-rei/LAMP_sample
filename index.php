@@ -49,7 +49,7 @@ try {
             <p>failed</p>
         <?php}?>
 
-        </div>
+    </div>
 
     <div class="container">
         <ul class="nav nav-tabs">
