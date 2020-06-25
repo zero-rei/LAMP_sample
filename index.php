@@ -133,7 +133,7 @@ try {
                                     <button type="submit" class="btn danger"> delete</button>
 
                                 </form>
-                        </td>
+                            </td>
                         </tr>
                         <?php } ?>
                     </tbody>
