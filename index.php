@@ -122,19 +122,18 @@ try {
                         </tr>
                     </thead>
                     <tbody>
-                        <?php foreach($del_list as $value){ ?>
-                        <tr>
-                            <th><?php echo "$value[id]"?></th>
-                            <td><?php echo "$value[name]"?></td>
-                            <td><?php echo "$value[age]"?></td>
-                            <td>
-                                <form action="./delete.php" method="$_GET">
-                                    <input type="text" class="d-none" name="id" value="<?php echo "$value[id]"?>"></input>
-                                    <button type="submit" class="btn btn-praimary"> delete</button>
-
-                                </form>
-                            </td>
-                        </tr>
+                        <?php foreach ($del_list as $value) { ?>
+                            <tr>
+                                <th><?php echo "$value[id]" ?></th>
+                                <td><?php echo "$value[name]" ?></td>
+                                <td><?php echo "$value[age]" ?></td>
+                                <td>
+                                    <form action="./delete.php" method="$_GET">
+                                        <input type="text" class="d-none" name="id" value="<?php echo "$value[id]" ?>">
+                                        <button type="submit" class="btn btn-danger">delete</button>
+                                    </form>
+                                </td>
+                            </tr>
                         <?php } ?>
                     </tbody>
                 </table>
