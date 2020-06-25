@@ -1,0 +1,17 @@
+div.row
+p.col-1
+
+横に広がる　col-1←この数
+
+
+
+button.btn.btn-lg.btn-parimary{submit}　
+<button class="btn btn-lg btn-parimary">submit</button>
+
+
+
+<div class="spinner-border" role="status">
+    <span class="sr-only">Loading・・・</span>
+</div>
+
+loading
