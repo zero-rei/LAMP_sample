@@ -107,7 +107,7 @@ try {
                         <input class="form-control" type="text" name="age" id="id">
 
                     </div>
-                    <button type="submit" class="btn btn-primary ">INSERT</button>
+                    <button type="submit" class="btn btn-primary ">update</button>
                 </form>
             </div>
             <div id="tab4" class="tab-pane">sample4</div>
